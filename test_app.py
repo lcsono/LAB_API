@@ -1,5 +1,5 @@
 import unittest
-from app import app
+from app.app import app
 import werkzeug
 
 if not hasattr(werkzeug, '__version__'):
